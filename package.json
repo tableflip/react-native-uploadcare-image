@@ -1,0 +1,21 @@
+{
+  "name": "react-native-uploadcare-image",
+  "version": "0.0.0",
+  "description": "Uploadcare image wrapper for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uploadcare",
+    "ucare",
+    "react",
+    "native"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
