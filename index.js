@@ -5,14 +5,14 @@ export default function UploadcareImage ({
   url,
   width,
   height,
-  style,
+  style = {},
   defaultImage,
   resizeImage = scaleCropResizeImage,
   ...props
 }) {
   if (!url && !defaultImage) return null
   const source = url ? { uri: resizeImage(url, width, height) } : defaultImage
-  style = (Array.isArray(style) ? style : [style]).concat({ width, height })
+  style = [{ width, height }].concat(style)
   return <Image style={style} source={source} resizeMode='cover' {...props} />
 }
 
