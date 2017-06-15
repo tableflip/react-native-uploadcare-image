@@ -13,7 +13,7 @@ export default function Avatar () {
       url={url}
       width={32}
       height={32}
-      style={{ borderRadius: 16 }}}
+      style={{ borderRadius: 16 }}
       defaultImage={defaultImage} />
   )
   // url is transformed into:
