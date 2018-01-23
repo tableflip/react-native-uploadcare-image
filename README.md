@@ -22,3 +22,11 @@ export default function Avatar () {
   // `resizeImage={(url, width, height) => { return /* ... */ }}`
 }
 ```
+
+## Contribute
+
+Feel free to dive in! [Open an issue](https://github.com/tableflip/react-native-uploadcare-image/issues/new) or submit PRs.
+
+## License
+
+[MIT](LICENSE) © TABLEFLIP
